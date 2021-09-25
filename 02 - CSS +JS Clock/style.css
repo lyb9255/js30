@@ -1,0 +1,39 @@
+body {
+  background-image: url("https://unsplash.it/1500/1000?image=881&blur=5");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  height: 60vh;
+  display:flex; 
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.clock {
+  width: 300px;
+  height: 300px;
+  border: 20px solid #fff;
+  border-radius: 50%;
+  position: relative;
+  
+}
+
+.hand {
+  width: 50%;
+  height: 6px;
+  background-color: #000;
+  position: absolute;
+  top: 50%;
+  margin: auto;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0, 1.78, 0.64, 1.24);
+}
+
+
+
+
+
