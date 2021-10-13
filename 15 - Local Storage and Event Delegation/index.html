@@ -81,6 +81,8 @@
     items = [];
   }
 
+  //clear all
+
   clearAll.addEventListener('click', clear)
 
   function check() {
@@ -93,6 +95,8 @@
       populateList(items, itemsList);
     })
   }
+
+  //check all, uncehck all
 
   function uncheck() {
     const lists = itemsList.querySelectorAll('li');
